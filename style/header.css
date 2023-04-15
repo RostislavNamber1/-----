@@ -1,12 +1,25 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 header, footer{
     width: 100%;
     min-height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 1rem 0;
 }
 footer{
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 4rem 0;
 }
 footer .logo,
@@ -28,8 +41,12 @@ header .logo a{
 footer nav ul,
 header nav ul{
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     /* gap: 2rem; */
     padding-left: 1rem;
 }
@@ -44,6 +61,8 @@ footer nav ul li a{
     font-size: calc(var(--index) * 1.4);
     padding: 5px 10px;
     border-bottom: 1px solid #44444400;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
     transition: all .5s;
     text-shadow: none;
 }
@@ -56,6 +75,8 @@ header nav ul li a{
     font-size: calc(var(--index) * 1.4);
     padding: 5px 10px;
     border-bottom: 1px solid #44444400;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
     transition: all .5s;
     text-shadow: none;
     white-space: nowrap
