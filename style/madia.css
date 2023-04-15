@@ -51,7 +51,8 @@
         height: 70vh;
     }
     .main-text__p{
-        font-size: calc(var(--index) * 2); 
+        font-size: calc(var(--index) * 2);
+        text-align: center; 
     }
     .footer nav ul{
         padding: none;
