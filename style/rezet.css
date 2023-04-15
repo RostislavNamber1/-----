@@ -83,20 +83,25 @@ img{
 ._top-bottom-dely1{
   transform: translate(0px, 50px);
   opacity: 0;
-  transition: all .5s ease 1s;
+  transition: all .5s ease .7s;
 }
 ._top-bottom-dely1-2{
 transform: translate(0px, 50px);
 opacity: 0;
-transition: all .5s ease 1.2s;
+transition: all .5s ease .9s;
 }
 ._top-bottom-dely1-3{
 transform: translate(0px, 50px);
 opacity: 0;
-transition: all .5s ease 1.3s;
+transition: all .5s ease 1.2s;
 }
 ._right-bottom{
-  transform: translate(100px, 0);
+  transform: translate(100px, 50px);
+  opacity: 0;
+  transition: all 1s ease .5s;
+}
+._left-bottom{
+  transform: translate(100px, 50px);
   opacity: 0;
   transition: all 1s ease .5s;
 }
