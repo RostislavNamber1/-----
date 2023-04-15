@@ -1,0 +1,58 @@
+@media screen and (max-width: 430px) {
+    .main-text{
+        width: 100%;
+        height: 60vh;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+    }
+    .main-decor-photo{
+        width: 80%;
+        height: 45vh;
+    }
+    .main-img{
+        width: 80%;
+        height: 40vh;
+    }
+    h1{
+        font-size: calc(var(--index) * 4);
+        text-align: center;
+    }
+    header nav ul{
+        gap: .4rem;
+        white-space: nowrap
+    }
+    .what-item{
+        flex: 1 0 100%;
+    }
+    .hozika__img,.hozika__text{
+        /* width: 100%; */
+        flex: 0 0 100%;
+    }
+    .conteiner90{
+        padding: 0 1rem;
+    }
+    .slider-item{
+        height: 70vh;
+    }
+    .main-text__p{
+        font-size: calc(var(--index) * 2); 
+    }
+    .footer nav ul{
+        padding: none;
+    }
+    .slider__img{
+        height: 70%;
+    }
+}
+@media screen and (max-width: 790px) and (min-width: 451px) {
+    .main-decor-photo{
+        width: 60%;
+        height: 80vh;
+        right: -20%;
+    }
+    .main-img{
+        width: 50%;
+        height: 70vh;
+    }
+}
