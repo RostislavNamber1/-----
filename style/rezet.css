@@ -62,3 +62,54 @@ img{
 ._pading2{
     padding: 3rem 0;
 }
+
+
+/* ******************************************************* */
+
+          /* анимация при прокрутки страницы */
+
+/* ******************************************************* */
+/* анимация будет сверху в низ */
+._top-bottom{
+  transform: translate(0px, 50px);
+  opacity: 0;
+  transition: all .5s ease 0s;
+}
+._top-bottom-dely05{
+  transform: translate(0px, 50px);
+  opacity: 0;
+  transition: all .5s ease .5s;
+}
+._top-bottom-dely1{
+  transform: translate(0px, 50px);
+  opacity: 0;
+  transition: all .5s ease 1s;
+}
+._top-bottom-dely1-2{
+transform: translate(0px, 50px);
+opacity: 0;
+transition: all .5s ease 1.2s;
+}
+._top-bottom-dely1-3{
+transform: translate(0px, 50px);
+opacity: 0;
+transition: all .5s ease 1.3s;
+}
+._right-bottom{
+  transform: translate(100px, 0);
+  opacity: 0;
+  transition: all 1s ease .5s;
+}
+._top-top{
+  transform: translate(0px, -50px);
+  opacity: 0;
+  transition: all .5s ease 0s;
+}
+/*
+скрытый класс который будет добавляться
+ при поподания в область экрана с небольшой анимацией */
+._active{
+  transform: translate(0px, 0px);
+  opacity: 1;
+
+}
